@@ -3208,7 +3208,8 @@ body.scheme3 .navigationscheme{
 body.scheme3 #section-footer {
     background-image: url(../images/bg-footer3.png);
     -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background-color: #ecf2ff;
 }
 
 /**
