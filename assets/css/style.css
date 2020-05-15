@@ -2768,7 +2768,8 @@ a.animated-button.style2:hover:after {
       text-align: left;
   }
   #section-slider1 .swiper-slide .slider-content .right{
-    display: none;
+    /* display: none; */
+    max-height: 450px;
   }
   #section-slider1 .swiper-slide .slider-content .left h1 {
       font-size: 35px;
