@@ -64,23 +64,50 @@
             <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" ></a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                	<li class="nav-item">
-                        <a href="index.html" class="nav-link scroll-down">
-                            Home
+
+                	<li class="nav-item dropdown-submenu dropdown">
+                        <a class="dropdown-item dropdown-toggle nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Service Solution
                         </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="index.html" class="dropdown-item">Online Payment</a></li>
+                        </ul>
                     </li>
+
+                	<li class="nav-item dropdown-submenu dropdown">
+                        <a class="dropdown-item dropdown-toggle nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Payment Method
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="index.html" class="dropdown-item">Scratch Card</a></li>
+                            <li><a href="index.html" class="dropdown-item">E-wallet</a></li>
+                            <li><a href="index.html" class="dropdown-item">Main Balance</a></li>
+                        </ul>
+                    </li>
+
 	                <li class="nav-item">
-	                    <a href="#section-features1" class="nav-link scroll-down">Features</a>
+	                    <a href="#section-features2" class="nav-link scroll-down">Intergated Guide</a>
 	                </li>
+	                
 	                <li class="nav-item">
-	                    <a href="#section-features2" class="nav-link scroll-down">Link accounts</a>
+	                    <a href="#section-features3" class="nav-link scroll-down">About Us</a>
 	                </li>
+
 	                <li class="nav-item">
-	                    <a href="#section-features3" class="nav-link scroll-down">Pay via mobile balance</a>
+	                    <a href="#section-subscribe1" class="nav-link scroll-down">Account</a>
 	                </li>
-	                <li class="nav-item">
-	                    <a href="#section-subscribe1" class="nav-link scroll-down">Contact</a>
-	                </li>
+
+                	<li class="nav-item dropdown-submenu dropdown">
+                        <a class="dropdown-item dropdown-toggle nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="assets/images/english.png" height="20" alt="">
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="index.html" class="dropdown-item">English</a></li>
+                            <li><a href="index.html" class="dropdown-item">Vietnamese</a></li>
+                            <li><a href="index.html" class="dropdown-item">Khmer</a></li>
+                        </ul>
+                    </li>
+
                 </ul>
             </div>
             <button type="button" id="sidebarCollapse" class="navbar-toggler active" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
@@ -98,13 +125,13 @@
 	  	<div class="swiper-container">
 		    <div class="swiper-wrapper d-none">
 		    	<!-- Item -->
-				<div class="swiper-slide">
+				<div class="swiper-slide" data-swiper-autoplay="2000">
 					<div class="slider-content">
 						<div class="container">
 							<div class="row">
 								<div class="left col-12 col-sm-12 col-md-7">
 									<h1 class="ez-animate" data-animation="fadeInLeft">Smart <br> collecting <br> payments</h1>
-									<p class="ez-animate" data-animation="fadeInLeft">Everytime, everywhere with our Campay..</p>
+									<p class="ez-animate" data-animation="fadeInLeft">Everytime, Everywhere, We will be there...</p>
 									
 								</div>
 								<div class="right ez-animate col-12 col-sm-12 col-md-5" data-animation="fadeInRight">
@@ -191,7 +218,7 @@ e-wallets, bank transfer, and cash at retail, margins significantly improve.</p>
 								<div class="item">
 									<img src="assets/images/img-icon3.png" >
 									<h3>Simple integration</h3>
-									<p>A single developer can implement the Codapay API in a few days, and we provide clear documentation, technical support, and resources for testing.</p>
+									<p>A single developer can implement the CamPay API in a few days, and we provide clear documentation, technical support, and resources for testing.</p>
 								</div>
 							</div>
 							<!-- /.Item -->
@@ -274,7 +301,15 @@ e-wallets, bank transfer, and cash at retail, margins significantly improve.</p>
 				</div>
 				<div class="form col-12 ez-animate" data-animation="fadeInUp">
 					<form action="#" id="SubscribeForm">
+						<input type="text" name="yourName" placeholder="Enter your name" required="">
+
+						<input type="number" name="yourNumber" placeholder="Enter your phone number" required="">
+						<br>
+
 						<input type="email" name="yourEmail" placeholder="Enter your email address" required="">
+						<input type="text" name="message" placeholder="Message...">
+
+						<br><br>
 						<button type="submit" class="shadow1 bgscheme">SEND</button>
 					</form>
 				</div>

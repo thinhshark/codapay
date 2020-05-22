@@ -10,6 +10,10 @@
 		    nextEl: "#section-features1 .fa-long-arrow-right",
 		    prevEl: "#section-features1 .fa-long-arrow-left"
 		  },
+		autoplay: {
+    	delay: 5000,
+    	disableOnInteraction: false
+  		},
       
     });
 	

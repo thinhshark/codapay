@@ -1113,7 +1113,7 @@ a.animated-button.style2:hover:after {
  *   4.2 SECTION CLIENTS 1   *
  *===========================*/
 #section-clients1{
-  padding: 110px 0;
+  padding: 80px 0;
   text-align: center;
   background: #ffffff;
 }
@@ -1183,7 +1183,7 @@ a.animated-button.style2:hover:after {
   margin-left: 20px;
 }
 #section-features1 .left ul li i:before{
-  font-size: 30px;
+  font-size: 60px;
 }
 #section-features1 .left ul li i:hover:before{
   color: #343434;
@@ -1233,7 +1233,7 @@ a.animated-button.style2:hover:after {
  *===========================*/
 #section-features2,
 .section-features2{
-  padding: 110px 0;
+  /* padding: 110px 0; */
 }
 #section-features2 .left,
 .section-features2 .left{
@@ -1565,12 +1565,13 @@ a.animated-button.style2:hover:after {
 }
 #section-subscribe1 form input{
   font-family: 'Poppins-Medium';
-  font-size: 16px; 
-    color: #555556;
+  font-size: 16px;
+  color: #555556;
   border-radius: 40px;
   width: 100%;
   max-width: 560px;
   padding: 22px 35px;
+  margin-top: 10px;
 }
 #section-subscribe1 .form ::-webkit-input-placeholder {
   font-family: 'Poppins-Medium';
