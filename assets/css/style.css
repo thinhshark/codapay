@@ -1937,15 +1937,16 @@ a.animated-button.style2:hover:after {
   font-size: 16px;
   color: #2da9ca;
   margin-bottom: 30px;
+  margin-top: 50px;
 }
 #section-blogdetail1 .contents > p{
   font-family: 'Poppins-Medium';
   font-size: 18px;
   color: #555556;
   line-height: 36px;
-  padding-bottom: 55px;
+  /* padding-bottom: 55px; */
   margin-bottom: 58px;
-    border-bottom: 2px solid #e9f0f2;
+  /* border-bottom: 2px solid #e9f0f2; */
 }
 /* Share */
 #section-blogdetail1 .contents .share{
