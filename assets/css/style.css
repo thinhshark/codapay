@@ -1201,14 +1201,13 @@ a.animated-button.style2:hover:after {
     width: 100%;
 }
 #section-features1 .swiper-container {
-    height: 340px;
+    /* height: 340px; */
 }
 #section-features1 .item{
   /*max-width: 370px;*/
   padding: 25px 29px;
   background: #ffffff;
   border-radius: 20px;
-
   box-shadow: 10px 22px 55px -40px #bfbfbf;
 }
 
